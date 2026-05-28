@@ -1,0 +1,62 @@
+export const mockCategories = [
+  { id: 1, name: "Agricole" },
+  { id: 2, name: "Jardinage" },
+  { id: 3, name: "Animalerie" },
+];
+
+export const mockProducts = [
+  {
+    id: 101,
+    name: "Motobineuse Pro 6CV",
+    description: "Preparation rapide du sol pour cultures maraicheres et espaces verts.",
+    price: 1890,
+    stock: 5,
+    category_id: 1,
+    is_active: true,
+  },
+  {
+    id: 102,
+    name: "Kit Irrigation Goutte-a-goutte 100m",
+    description: "Economise l'eau et optimise l'irrigation de vos plantations.",
+    price: 320,
+    stock: 18,
+    category_id: 1,
+    is_active: true,
+  },
+  {
+    id: 201,
+    name: "Pack Jardin Magique",
+    description: "Set premium: sécateur, gants renforces, arrosoir et semences.",
+    price: 145,
+    stock: 24,
+    category_id: 2,
+    is_active: true,
+  },
+  {
+    id: 202,
+    name: "Terreau Bio Fertile 50L",
+    description: "Substrat riche pour potager, plantes fleuries et vergers.",
+    price: 29,
+    stock: 90,
+    category_id: 2,
+    is_active: true,
+  },
+  {
+    id: 301,
+    name: "Croquettes Premium Chien 20kg",
+    description: "Nutrition complete pour chiens adultes actifs.",
+    price: 179,
+    stock: 30,
+    category_id: 3,
+    is_active: true,
+  },
+  {
+    id: 302,
+    name: "Voliere Nature XL",
+    description: "Espace spacieux et securise pour oiseaux d'ornement.",
+    price: 460,
+    stock: 6,
+    category_id: 3,
+    is_active: true,
+  },
+];
