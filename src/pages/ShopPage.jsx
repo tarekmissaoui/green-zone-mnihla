@@ -45,4 +45,12 @@ export default function ShopPage() {
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {filtered.map((p) => (
           <article key={p.id} className="rounded-xl bg-white p-4 shadow-premium">
-           
+            <h3 className="font-semibold">{p.name}</h3>
+            <p className="text-sm text-gray-600">{p.description}</p>
+            <p className="mt-3 font-bold text-brand-green">{p.price} TND</p>
+          </article>
+        ))}
+      </div>
+    </section>
+  );
+}
